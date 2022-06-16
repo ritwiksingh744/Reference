@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter table with jQery</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    <h3>filter table</h3>
+    <input type="text" placeholder="search here...." id="input">
+  <table class="table table-striped mt-3" id="myTable">
+    <thead ><tr>
+      <th scope="col"><span id="id" class="w3-button table-column">Id <i class="caret"></span></th>
+      <th scope="col"><span id="name" class="w3-button table-column">Name <i class="caret"></span></th>
+      <th scope="col"><span id="quantity" class="w3-button table-column">Degree<i class="caret"></span></th>
+      <th scope="col"><span id="price" class="w3-button table-column">Profession <i class="caret"></span></th>
+    </tr></thead>
+    <tbody id="mytable">
+      <tr>
+        <td>101</td>
+        <td>Ram</td>
+        <td>cse</td>
+        <td>farmer</td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td>Harry</td>
+        <td>mba</td>
+        <td>Businessman</td>
+      </tr>
+      <tr>
+        <td>103</td>
+        <td>Raghav</td>
+        <td>Architecture</td>
+        <td>Engineer</td>
+      </tr>
+      <tr>
+        <td>105</td>
+        <td>Ramesh</td>
+        <td>cse</td>
+        <td>fullstack develop</td>
+      </tr>
+      <tr>
+        <td>108</td>
+        <td>Suresh</td>
+        <td>B.tech</td>
+        <td>Java Deleloper</td>
+      </tr>
+      <tr>
+        <td>121</td>
+        <td>Shivan</td>
+        <td>cse</td>
+        <td>Front-end developer</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- jQuery cdn -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="JS/3_jQueryFilter.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+<div class="container">
+<h1 class="display-6">jQuery and AJAX is FUN!!!</h1>
+<p id="p1">This is some text in a paragraph. These are text in paragraph</p>
+</div>

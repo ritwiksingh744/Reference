@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FETCH API</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <div class="container row-md-4 mt-3">
+        <h3 class="display-6">Guess The Number(1-10):</h3>
+        <div class="col-md-4">
+            <input class="form-control w-25" type="number" min="1" max="10" id="inputNum">
+            <button type="button" class="btn btn-info mt-2" id="btn">click</button>
+        </div>
+        <div class="col-md-4">
+            <p id="para"></p>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <h3 class="display-6">Cascading Dropdown</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <select id="country" class="form-select">
+                    <option value="">Country</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <select id="state" class="form-select">
+                    <option value="">State</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <select id="city" class="form-select">
+                    <option value="">City</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <form id="myForm" class="container mt-5 border w-25 p-3" >
+        <div class="row-md-6">
+            <div class="col-md-4">
+                <label class="form-label" for="name">Name:</label>
+                <input class="form-control" type="text" id="name" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label" for="email">Email:</label>
+                <input class="form-control" type="email" id="email" required>
+            </div>
+        </div>
+        <div class="row-md-4">
+            <label class="form-label" for="gender">Gender:</label>
+            <div class="form-check gender">
+                <input type="radio" class="form-check-input" name="gender" id="tel1" value="" required>
+                <label class="form-check-label" for="gender">Male</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" name="gender" id="tel2" value="" required>
+                <label class="form-check-label" for="gender">Female</label>
+            </div>
+            
+        </div>
+        <div class="row-md-4">
+            <input class="btn btn-success" type="submit" name="submit" id="submit" >
+        </div>
+
+    </form>
+
+    <!-- jQuery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- jQuery validator cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- script -->
+    <script src="JS/1_fetchAPIRequest.js"></script>
+</body>
+</html>

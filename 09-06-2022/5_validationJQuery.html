@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation jQuery plugin</title>
+    <link rel="stylesheet" href="CSS/5_validateJQueryStyle.CSS">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <!-- <form class="cmxform container shadow mt-3" id="commentForm" method="get" action="">
+        <fieldset>
+          <legend>Please provide your name, email address (won't be published) and a comment</legend>
+          <p class=" form-group">
+            <label for="cname">Name (required, at least 2 characters)</label>
+            <input id="cname" name="name" minlength="2" type="text" required>
+          </p>
+          <p class=" form-group">
+            <label for="cemail">E-Mail (required)</label>
+            <input id="cemail" type="email" name="email" required>
+          </p>
+          <p class=" form-group">
+            <label for="curl">URL (optional)</label>
+            <input id="curl" type="url" name="url">
+          </p>
+          <p class=" form-group">
+            <label for="ccomment">Your comment (required)</label>
+            <textarea id="ccomment" name="comment" required></textarea>
+          </p>
+          <p>
+            <input class="submit btn btn-primary" type="submit" value="Submit">
+          </p>
+        </fieldset>
+      </form> -->
+      <div class="container bg-light mt-5 p-3 shadow rounded-1" >
+        <form id="frm" > 
+           <p>
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control"  name="name" placeholder="Enter your name">
+           </p>
+          <p>
+            <label for="email" class="form-label">Email </label>
+            <input type="email" class="form-control"  name="email" placeholder="Enter your email">
+          </p>
+           <p>
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control"  name="password" placeholder="Enter your password">
+           </p>
+           <p>
+             
+           </p>
+           <p>
+            <input type="submit" class="btn btn-primary" value="Submit">
+           </p>
+        </form>
+     </div>
+
+    <!-- jQuery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+
+    <!-- jQuery validator cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="JS/5_validationJQuery.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>

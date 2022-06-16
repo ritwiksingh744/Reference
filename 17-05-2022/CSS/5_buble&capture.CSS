@@ -1,0 +1,11 @@
+#myDiv{
+    height: 300px;
+    width: 350px;
+    background-color: aqua;
+}
+
+#myP{
+    width: 250px;
+    height: 100px;
+    background-color: aliceblue;
+}
