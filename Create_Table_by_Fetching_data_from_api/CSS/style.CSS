@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#divTable, #optTableDiv{
+    margin: 2% 2%;
+}
+#table{
+    width: 350px !important;
+    border-radius: 5px;
+}
+
+.table tbody tr:nth-child(even){
+    background-color: #dadada;
+}
+.table tbody tr:hover{
+    background-color: #dcffff ;
+}
+
+input{
+    margin: 5px !important;
+    border-radius: 5px;
+}
+input:hover{
+    background-color: #eeeeee;
+}
+input:focus{
+    background-color: #e4e4e4;
+}
+
+/* del and update button of table */
+#table button.delbtn{
+    color: #ffffffff;
+    margin: 3px;
+    background-color: #9b6aff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px 4.5px;
+    margin-right: 8px;
+    border: none;
+}
+
+#table  button.updatebtn{
+    color: #ffffffff;
+    margin: 3px;
+    background-color: #9b6aff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px;
+    margin-right: 8px;
+    border: none;
+}
+
+#table  button.delbtn:hover,#table button.updatebtn:hover{
+    background-color: #7532f9;
+}
+#table button.delbtn:active,#table button.updatebtn:active{
+    background-color: 	#d9a0ff;
+}
+
+/* header click and hover section */
+.table-sortable th{
+    cursor: pointer;
+}
+
+.table-sortable .th-sort-asc::after{
+    content: "\25b4";
+}
+.table-sortable .th-sort-desc::after{
+    content: "\25be";
+}
+
+.table-sortable .th-sort-asc::after,
+.table-sortable .th-sort-desc::after{
+    margin-left: 5px;
+}
+
+/* .table-sortable .th-sort-asc,
+.table-sortable .th-sort-desc{
+    background: rgba(0, 0, 0, 0.1);
+} */
