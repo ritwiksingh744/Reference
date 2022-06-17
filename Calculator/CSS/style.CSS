@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#calc{
+    border-radius: 10px;
+    width: 500px;
+    padding: 3%;
+}
+#display{
+    height: 60px;
+    background-color: rgb(226, 226, 226);
+    margin-bottom: 1.5rem !important;
+    font-size: larger;
+    overflow: hidden;
+}
+
+.btn{
+    height: 60px;
+    color: #fff !important;
+}
+.btn:hover{
+    background-color: rgb(160, 160, 160);
+}
